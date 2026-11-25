@@ -1,0 +1,68 @@
+AGR Tennis de Table – Affichage confort (version 5.1, « beige & vert forêt »)
+============================================================================
+
+Extension Chrome qui présente le site https://www.agr-tt.fr/agrtt68/
+dans la nouvelle mise en page validée sur la maquette : fond beige,
+vert forêt, grands titres, vraies photos, pour ordinateur, tablette
+et téléphone.
+
+INSTALLATION (Chrome ou Edge sur ordinateur)
+1. Décompressez le dossier « agr-confort » quelque part sur l'ordinateur
+   (par exemple dans Documents). Ne le supprimez pas ensuite.
+2. Ouvrez Chrome et tapez dans la barre d'adresse : chrome://extensions
+   (dans Edge : edge://extensions)
+3. Activez « Mode développeur » (en haut à droite).
+4. Cliquez sur « Charger l'extension non empaquetée »
+   et choisissez le dossier « agr-confort ».
+5. Ouvrez le site : la nouvelle présentation s'applique tout de suite.
+Mise à jour depuis une version précédente : remplacez le dossier, puis
+cliquez sur « Actualiser » (flèche ronde) sur la carte de l'extension.
+
+ORGANISATION
+- Menu par type d'information : Résultats · Classements · Calendriers ·
+  Clubs & joueurs · Documents. Chaque rubrique ouvre un sous-menu ;
+  sur téléphone, tout est dans le bouton « Menu ».
+- Accueil : grand titre et photo, « À propos » et « À ne pas manquer »
+  (les deux dernières actualités), « Que cherchez-vous ? » (une rubrique
+  à la fois), puis les actualités, la dernière publication à la une avec
+  ses documents à télécharger.
+- Pages : fil d'Ariane, grand titre, consigne en une phrase, photo,
+  pastilles pour passer d'une page à l'autre de la rubrique, puis le
+  contenu réel du site.
+- Résultats, classements et calendriers : les menus en cascade
+  deviennent des étapes à déplier d'un clic ; les tableaux larges
+  défilent ; la hauteur des cadres s'ajuste toute seule.
+- Lecture : texte de 18 px minimum, contraste renforcé dans la barre du
+  haut (ou via l'icône de l'extension), bouton « Haut ».
+  « Espace privé » ouvre la connexion d'origine.
+Le contenu reste celui du site : rien n'est modifié sur le serveur.
+
+TOUJOURS À JOUR
+Tout ce qui change sur le site s'affiche sans mettre l'extension à jour :
+- actualités, « À ne pas manquer », publications « À la une », documents,
+  saison en cours, résultats, classements, calendriers, annuaires : lus
+  sur le site à chaque visite ;
+- menus : relus à chaque page, et vérifiés en entier une fois par jour.
+  Une page ajoutée au site apparaît dans les menus (dans sa rubrique),
+  une page supprimée en disparaît. Les textes d'aide et l'ordre des
+  rubriques viennent de scripts/sitemap.js.
+Désactiver « Nouvel affichage » dans l'icône de l'extension réaffiche
+le site d'origine.
+
+PHOTOS
+Photos libres de droits, affichées depuis Unsplash et Pexels (crédits
+en bas de chaque page) : Anat Landa, Conor Samuel, Maximilian Bungart,
+Nicholas Ismael Martinez, Nathanaël Desmeules, Ivan Cortez, Yanhao Fang,
+Lisa Keffer.
+
+FICHIERS
+- manifest.json        description de l'extension
+- scripts/sitemap.js   plan du site (rubriques, questions, consignes)
+- scripts/content.js   construction des pages et ergonomie
+- styles/theme.css     couleurs, formulaires, tableaux de résultats
+- styles/site.css      mise en page
+- popup/               fenêtre de réglages
+- icons/               icônes
+
+Nouvelle page sur le site : elle apparaît toute seule. Pour lui donner
+un nom plus clair ou un texte d'aide, ajoutez-la dans scripts/sitemap.js.

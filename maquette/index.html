@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AGR Tennis de Table – Haut-Rhin</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,500;0,600;0,700;1,600;1,700&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="css/site.css?v=12">
+</head>
+<body>
+<div id="agrx-app" data-page="home">
+  <a class="ax-skip" href="#ax-main">Aller au contenu</a>
+  <div data-ax="head"></div>
+
+  <main id="ax-main">
+    <!-- Grand titre + grande photo -->
+    <section class="ax-hero" aria-labelledby="ax-h1">
+      <div class="ax-wrap">
+        <div class="ax-hero-top">
+          <h1 class="ax-display" id="ax-h1"><em>Tennis de table</em>Haut-Rhin</h1>
+          <div class="ax-hero-side">
+            <p>La section haut-rhinoise de l’Avant-Garde du Rhin. Saison 2026-2027.</p>
+          </div>
+        </div>
+        <figure class="ax-photo ax-hero-photo" data-hero></figure>
+      </div>
+    </section>
+
+    <!-- À propos + à ne pas manquer -->
+    <section class="ax-section" aria-labelledby="ax-about-title">
+      <div class="ax-wrap ax-about">
+        <figure class="ax-photo ax-about-a" data-scene="racket"></figure>
+        <div class="ax-about-text">
+          <span class="ax-tag">À propos</span>
+          <h2 id="ax-about-title">Toute la saison du tennis de table haut-rhinois, au même endroit</h2>
+          <p>Calendriers, résultats et classements du championnat, des individuels et des coupes, ainsi que les coordonnées des clubs et la fiche de chaque joueur.</p>
+          <a class="ax-more" href="#ax-finder-title">Que trouver sur le site <svg class="ax-i" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7l10 10M17 8v9H8"/></svg></a>
+        </div>
+        <figure class="ax-photo ax-about-b" data-scene="hall"></figure>
+        <!-- Rempli automatiquement : les 2 actualités les plus récentes du site -->
+        <div data-ax="soon"></div>
+      </div>
+    </section>
+
+    <!-- Le chemin d'exploration : onglets à gauche, photo, pages à droite -->
+    <section class="ax-section" aria-labelledby="ax-finder-title">
+      <div class="ax-wrap">
+        <div class="ax-center">
+          <span class="ax-tag">Rubriques</span>
+          <h2 id="ax-finder-title">Que cherchez-vous&nbsp;?</h2>
+          <p>Choisissez une rubrique pour voir toutes ses pages.</p>
+        </div>
+        <div data-ax="finder"></div>
+      </div>
+    </section>
+
+    <!-- Actualités (reprises du site) -->
+    <section class="ax-section" aria-labelledby="ax-news-title">
+      <div class="ax-wrap">
+        <div class="ax-center"><span class="ax-tag">Actualités</span><h2 id="ax-news-title">Les dernières nouvelles</h2></div>
+        <div class="ax-news">
+          <article class="ax-card ax-card-feature">
+            <figure class="ax-photo" data-scene="ball"></figure>
+            <div>
+              <span class="ax-tag">À la une</span>
+              <h3>Mise à jour du règlement</h3>
+              <p>Le règlement de la CRTT a été mis à jour.</p>
+              <a class="ax-file" href="#" data-demo><span><b>Règlement CRTT 05.2026</b><small>PDF · 1 002 Ko</small></span><span class="ax-dl"><svg class="ax-i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg></span><span class="ax-sr">Télécharger</span></a>
+            </div>
+          </article>
+          <!-- Rempli automatiquement : les actualités suivantes du site -->
+          <div data-ax="news-cards"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div data-ax="footer"></div>
+  <div data-ax="sheet"></div>
+</div>
+<script src="js/sitemap.js?v=12"></script>
+<script src="js/site.js?v=12"></script>
+</body>
+</html>

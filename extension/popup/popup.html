@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Réglages d'affichage</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header class="head">
+    <img src="../icons/icon48.png" alt="" width="40" height="40">
+    <div>
+      <h1>Affichage confort</h1>
+      <p>AGR Tennis de Table – Haut-Rhin</p>
+    </div>
+  </header>
+
+  <main>
+    <label class="row switch-row">
+      <span>
+        <strong>Nouvel affichage</strong>
+        <small>Désactivez pour revoir le site d'origine</small>
+      </span>
+      <input type="checkbox" id="enabled" role="switch">
+      <span class="switch" aria-hidden="true"></span>
+    </label>
+
+    <label class="row switch-row" id="contrast-row">
+      <span>
+        <strong>Contraste renforcé</strong>
+        <small>Texte noir sur fond blanc</small>
+      </span>
+      <input type="checkbox" id="contrast" role="switch">
+      <span class="switch" aria-hidden="true"></span>
+    </label>
+  </main>
+
+  <footer class="foot">Les réglages s'appliquent à toutes les pages du site.</footer>
+  <script src="popup.js"></script>
+</body>
+</html>
